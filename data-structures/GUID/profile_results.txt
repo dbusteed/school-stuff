@@ -1,0 +1,48 @@
+FIRST ATTEMPT AT ALGORITHM
+
+         397684 function calls in 0.622 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1000    0.000    0.000    0.094    0.000 base16.py:4(convert)
+     9000    0.004    0.000    0.355    0.000 base2.py:4(convert)
+     1000    0.000    0.000    0.150    0.000 base64_.py:4(convert)
+    11000    0.434    0.000    0.595    0.000 baseX.py:34(convert)
+        1    0.002    0.002    0.622    0.622 profileit.py:16(main)
+     3000    0.007    0.000    0.620    0.000 uid.py:45(generate)
+     3000    0.008    0.000    0.366    0.000 uid.py:79(pack)
+     3000    0.002    0.000    0.002    0.000 {built-in method builtins.round}
+   166962    0.142    0.000    0.142    0.000 {built-in method builtins.sorted}
+    10379    0.002    0.000    0.002    0.000 {built-in method math.floor}
+    10379    0.004    0.000    0.004    0.000 {built-in method math.log}
+     3000    0.001    0.000    0.001    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     9000    0.003    0.000    0.003    0.000 {method 'rjust' of 'str' objects}
+   166962    0.013    0.000    0.013    0.000 {method 'values' of 'dict' objects}
+
+
+ALGORITHM ADJUSTMENTS AFTER ONLINE HINTS
+
+         413270 function calls in 0.094 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1000    0.000    0.000    0.008    0.000 base16.py:4(convert)
+     9000    0.002    0.000    0.069    0.000 base2.py:4(convert)
+     1000    0.000    0.000    0.006    0.000 base64_.py:4(convert)
+    11000    0.051    0.000    0.080    0.000 baseX.py:28(convert)
+        1    0.001    0.001    0.094    0.094 profileit.py:16(main)
+     3000    0.003    0.000    0.093    0.000 uid.py:43(generate)
+     3000    0.004    0.000    0.075    0.000 uid.py:77(pack)
+   174229    0.017    0.000    0.017    0.000 {built-in method builtins.divmod}
+     3000    0.001    0.000    0.001    0.000 {built-in method builtins.round}
+     3000    0.000    0.000    0.000    0.000 {built-in method time.time}
+   174229    0.009    0.000    0.009    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    10905    0.002    0.000    0.002    0.000 {method 'join' of 'str' objects}
+    10905    0.001    0.000    0.001    0.000 {method 'reverse' of 'list' objects}
+     9000    0.001    0.000    0.001    0.000 {method 'rjust' of 'str' objects}
+
+

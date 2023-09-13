@@ -1,0 +1,100 @@
+0:CREATE,,
+1:DEBUG,,
+0 of 10 >>> None, None, None, None, None, None, None, None, None, None
+2:ADD,o,
+3:ADD,u,
+4:ADD,r,
+5:ADD,e,
+6:ADD,q,
+7:ADD,f,
+8:ADD,n,
+9:ADD,e,
+10:ADD,i,
+11:ADD,Y,
+12:DEBUG,,
+10 of 10 >>> o, u, r, e, q, f, n, e, i, Y
+13:ADD,P,
+14:DEBUG,,
+11 of 15 >>> o, u, r, e, q, f, n, e, i, Y, P, None, None, None, None
+15:SET,4,k
+16:SET,12,h
+Error: 12 is not within the bounds of the current array.
+17:DEBUG,,
+11 of 15 >>> o, u, r, e, k, f, n, e, i, Y, P, None, None, None, None
+18:GET,8,
+i
+19:GET,11,
+Error: 11 is not within the bounds of the current array.
+20:INSERT,21,r
+Error: 21 is not within the bounds of the current array.
+21:INSERT,4,i
+22:INSERT,4,k
+23:INSERT,4,T
+24:INSERT,4,h
+25:INSERT,4,e
+26:INSERT,4,r
+27:DEBUG,,
+17 of 20 >>> o, u, r, e, r, e, h, T, k, i, k, f, n, e, i, Y, P, None, None, None
+28:DELETE,6,
+29:DEBUG,,
+16 of 20 >>> o, u, r, e, r, e, T, k, i, k, f, n, e, i, Y, P, None, None, None, None
+30:DELETE,10,
+31:DEBUG,,
+15 of 15 >>> o, u, r, e, r, e, T, k, i, k, n, e, i, Y, P
+32:DELETE,11,
+33:DEBUG,,
+14 of 15 >>> o, u, r, e, r, e, T, k, i, k, n, i, Y, P, None
+34:DELETE,7,
+35:DEBUG,,
+13 of 15 >>> o, u, r, e, r, e, T, i, k, n, i, Y, P, None, None
+36:DELETE,13,
+Error: 13 is not within the bounds of the current array.
+37:DEBUG,,
+13 of 15 >>> o, u, r, e, r, e, T, i, k, n, i, Y, P, None, None
+38:SWAP,1,3
+39:SWAP,7,8
+40:DEBUG,,
+13 of 15 >>> o, e, r, u, r, e, T, k, i, n, i, Y, P, None, None
+41:SWAP,0,13
+Error: 0 and/or 13 are not within the bounds of the current array.
+42:DELETE,10,
+43:DEBUG,,
+12 of 15 >>> o, e, r, u, r, e, T, k, i, n, Y, P, None, None, None
+44:ADD,a,
+45:ADD,O,
+46:DEBUG,,
+14 of 15 >>> o, e, r, u, r, e, T, k, i, n, Y, P, a, O, None
+47:INSERT,12,u
+48:ADD,S,
+49:ADD,r,
+50:ADD,v,
+51:ADD,t,
+52:ADD,i,
+53:DEBUG,,
+20 of 20 >>> o, e, r, u, r, e, T, k, i, n, Y, P, u, a, O, S, r, v, t, i
+54:INSERT,25,b
+Error: 25 is not within the bounds of the current array.
+55:SET,15,l
+56:INSERT,27,j
+Error: 27 is not within the bounds of the current array.
+57:DEBUG,,
+20 of 20 >>> o, e, r, u, r, e, T, k, i, n, Y, P, u, a, O, l, r, v, t, i
+58:SET,10,D
+59:SWAP,16,13
+60:ADD,e,
+61:INSERT,20,S
+62:DEBUG,,
+22 of 25 >>> o, e, r, u, r, e, T, k, i, n, D, P, u, r, O, l, a, v, t, i, S, e, None, None, None
+63:INSERT,8,n
+64:INSERT,7,B
+65:INSERT,13,Y
+66:DEBUG,,
+25 of 25 >>> o, e, r, u, r, e, T, B, k, n, i, n, D, Y, P, u, r, O, l, a, v, t, i, S, e
+67:SET,14,o
+68:SWAP,0,7
+69:SWAP,2,9
+70:SWAP,18,20
+71:SWAP,2,23
+72:SWAP,8,12
+73:DEBUG,,
+25 of 25 >>> B, e, S, u, r, e, T, o, D, r, i, n, k, Y, o, u, r, O, v, a, l, t, i, n, e

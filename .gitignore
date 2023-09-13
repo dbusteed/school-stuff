@@ -1,0 +1,8 @@
+__pycache__/
+__pycache__/*
+*.pyc
+secret*
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+cache/
+cache/*
