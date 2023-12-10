@@ -1,0 +1,5 @@
+.manage-table tbody tr td {
+  padding: 10px;
+  border: .75px solid #cccccc;
+  text-align: end;
+}

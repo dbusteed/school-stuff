@@ -1,0 +1,19 @@
+.board-thumbnail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.lil-table tbody tr td {
+  height: 3vh;
+  width: 3vh;
+  border: 1px solid black;
+}
+
+.board-thumbnail-title {
+  color: #1d1d1d;
+  font-size: 1.25em;
+  margin-bottom: .2em;
+}
